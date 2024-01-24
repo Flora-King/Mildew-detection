@@ -18,10 +18,14 @@ def project_hypothesis_body():
     st.write("To visualize a thorough investigation of infected and healthy leaves visit the Leaves Visualiser tab.")
 
     st.warning(
-        f"The model was able to detect such differences and learn how to differentiate and generalize in order to make accurate predictions."
-        f" A good model trains its ability to predict classes on a batch of data without adhering too closely to that set of data."
-        f" In this way the model is able to generalize and predict future observation reliably because it didn't 'memorize' the relationships between features and labels"
-        f" as seen in the training dataset but the general pattern from feature to labels. "
+        f"The model was able to detect such differences and learn how to\n"
+        f"differentiate and generalize in order to make accurate predictions."
+        f" A good model trains its ability to predict classes on a batch\n"
+        f"of data without adhering too closely to that set of data.\n"
+        f" In this way the model is able to generalize and predict \n"
+        f"future observation reliably because it didn't 'memorize'\n"
+        f"the relationships between features and labels as seen in\n"
+        f"the training dataset but the general pattern from feature to labels."
     )
 
     st.write(

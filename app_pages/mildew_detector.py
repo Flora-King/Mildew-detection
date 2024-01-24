@@ -56,6 +56,6 @@ def mildew_detector_body():
                 df_report), unsafe_allow_html=True)
 
     st.write(
-        f"For additional information, please visit **read** "
-        f"[this project's README.md file](https://github.com/Flora-King/Mildew-detection.git)."
+        f"For additional information, please checkout the "
+        f"[README.md](https://github.com/Flora-King/Mildew-detection.git)."
     )
