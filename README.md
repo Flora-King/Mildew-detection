@@ -13,9 +13,9 @@
 9. [Technologies used](#main-data-analysis-and-machine-learning-libraries)
 10. [Credit](#credit)
 
-[click here to access app](https://mildew-detector-app.onrender.com)
+[Click here to access app](https://mildew-detector-app.onrender.com)
 
-[click here to access github workspace](https://github.com/Flora-King/Mildew-detection.git)
+[Click here to access github workspace](https://github.com/Flora-King/Mildew-detection.git)
 
 ## Background
 
