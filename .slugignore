@@ -28,3 +28,10 @@ app_pages/__pycache__/*
 /.gitignore
 /.git/logs
 /src/machine_learning/__pycache__
+*.zip
+*.py[cod]
+node_modules/
+core.Microsoft*
+core.mongo*
+core.python*
+env.py
