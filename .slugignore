@@ -30,7 +30,14 @@ app_pages/__pycache__/*
 /src/machine_learning/__pycache__
 *.zip
 *.py[cod]
-node_modules/
+pyenv
+*.pdf
+*.psd
+*.py[cod]
+*.pyc
+*.pyo
+/.github/*
+/node_modules/*
 core.Microsoft*
 core.mongo*
 core.python*
