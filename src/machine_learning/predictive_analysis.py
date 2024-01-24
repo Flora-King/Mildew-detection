@@ -36,16 +36,24 @@ def plot_predictions_probabilities(pred_proba, pred_class):
     st.plotly_chart(fig)
 
 
-def resize_input_image(img, version):
+# def resize_input_image(img, version):
+#     """
+#     Reshapes image to average image size
+#     """
+#     image_shape = load_pkl_file(file_path=f"outputs/{version}/image_shape.pkl")
+#     img_resized = img.resize((image_shape[1], image_shape[0]), Image.LANCZOS)
+#     my_image = np.expand_dims(img_resized, axis=0)/255
+
+#     return my_image
+
+def resize_input_image(img, version, target_size=(50, 50)):
     """
-    Reshapes image to average image size
+    Reshapes image to the specified target size
     """
-    image_shape = load_pkl_file(file_path=f"outputs/{version}/image_shape.pkl")
-    img_resized = img.resize((image_shape[1], image_shape[0]), Image.LANCZOS)
-    my_image = np.expand_dims(img_resized, axis=0)/255
+    img_resized = img.resize(target_size, Image.LANCZOS)
+    my_image = np.expand_dims(img_resized, axis=0) / 255
 
     return my_image
-
 
 def load_model_and_predict(my_image, version):
     """
