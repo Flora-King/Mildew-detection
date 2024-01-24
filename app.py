@@ -12,7 +12,7 @@ from app_pages.ml_performance_metrics import ml_performance_metrics
 app = MultiPage(app_name="Cherry Powdery Mildew detector")
 
 # Add app pages
-app.add_page("Quick Project Summary", project-summary_body)
+app.add_page("Quick Project Summary", project_summary_body)
 app.add_page("Leaves Visualiser", leaves_visualizer_body)
 app.add_page("Powdery Mildew detector", powdery_mildew_detector_body)
 app.add_page("Project Hypothesis", project_hypothesis_body)
