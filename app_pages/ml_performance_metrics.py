@@ -8,12 +8,13 @@ from src.machine_learning.evaluate_clf import load_test_evaluation
 def ml_performance_metrics():
     version = 'v1'
     st.info(
-        f"This page details how the dataset was divided, how the model performed on that data."
+        f"This page details how the dataset was divided,\n"
+        f"how the model performed on that data."
     )
     st.write("### Images distribution per data set and label")
 
     labels_distribution = plt.imread(
-        f"/workspaces/Mildew-detection/outputs/v1/labels_distribution.png")
+        f"/outputs/v1/labels_distribution.png")
     st.image(labels_distribution,
              caption='Labels Distribution on Train, Validation and Test Sets')
 
@@ -34,12 +35,12 @@ def ml_performance_metrics():
 
     st.write("Model Training Accuracy")
     model_clf = plt.imread(
-        f"/workspaces/Mildew-detection/outputs/v1/model_training_acc.png")
+        f"/outputs/v1/model_training_acc.png")
     st.image(model_clf, caption='Model Accuracy')
 
     st.write("Model Training Loss")
     model_clf = plt.imread(
-        f"/workspaces/Mildew-detection/outputs/v1/model_training_losses.png")
+        f"/outputs/v1/model_training_losses.png")
     st.image(model_clf, caption='Model Loss')
 
     st.write("### Generalised Performance on Test Set")
