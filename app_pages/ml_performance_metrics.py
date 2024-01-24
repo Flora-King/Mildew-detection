@@ -14,7 +14,7 @@ def ml_performance_metrics():
     st.write("### Images distribution per data set and label")
 
     labels_distribution = plt.imread(
-        f"/outputs/v1/labels_distribution.png")
+        f"/workspaces/Mildew-detection/assets/distribution.png")
     st.image(labels_distribution,
              caption='Labels Distribution on Train, Validation and Test Sets')
 
@@ -35,12 +35,12 @@ def ml_performance_metrics():
 
     st.write("Model Training Accuracy")
     model_clf = plt.imread(
-        f"/outputs/v1/model_training_acc.png")
+        f"/workspaces/Mildew-detection/assets/accuracy.png")
     st.image(model_clf, caption='Model Accuracy')
 
     st.write("Model Training Loss")
     model_clf = plt.imread(
-        f"/outputs/v1/model_training_losses.png")
+        f"/workspaces/Mildew-detection/assets/losses.png")
     st.image(model_clf, caption='Model Loss')
 
     st.write("### Generalised Performance on Test Set")
