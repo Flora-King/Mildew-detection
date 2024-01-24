@@ -27,7 +27,7 @@ def mildew_detector_body():
 
     st.write("---")
 
-    images_buffer = st.file_uploader('Upload cherry leaf samples. You may select more than one.',
+    images_buffer = st.file_uploader('You can select morethan one image to upload.',
                                      type=['png', 'jpg', 'jpeg'], accept_multiple_files=True)
 
     if images_buffer is not None:
