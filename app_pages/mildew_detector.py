@@ -11,7 +11,7 @@ from src.machine_learning.predictive_analysis import (
 )
 
 
-def powdery_mildew_detector_page_body():
+def mildew_detector_body():
     st.info(
         f"* The client is interested to tell whether a given cherry leaf\n"
         f"contains mildew"

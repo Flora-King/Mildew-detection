@@ -10,7 +10,7 @@ import itertools
 import random
 
 
-def leaves_visualizer_page_body():
+def leaves_visualizer_body():
     st.write("### Leaves Visualizer")
     st.info(
         f"In answer to Business requirement 1 - **The client is interested\n"

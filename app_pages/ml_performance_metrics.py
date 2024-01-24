@@ -5,7 +5,7 @@ from matplotlib.image import imread
 from src.machine_learning.evaluate_clf import load_test_evaluation
 
 
-def ml_performance_metrics_page():
+def ml_performance_metrics():
     version = 'v1'
     st.info(
         f"This page details how the dataset was divided, how the model performed on that data."
