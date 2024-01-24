@@ -3,7 +3,7 @@ inputs/cherryleaves_dataset/cherry-leaves/test/powdery_mildew/*
 inputs/cherryleaves_dataset/cherry-leaves/train/healthy/*
 inputs/cherryleaves_dataset/cherry-leaves/train/powdery_mildew/*
 attachments/*
-readme_images/*
+documentation/*
 README.md
 .gitpod.dockerfile
 .gitpod.yml
@@ -17,3 +17,6 @@ app_pages/__pycache__/*
 /assets
 /jupyter_notebooks/.ipynb_checkpoints
 /jupyter_notebooks
+/kaggle.json
+/__pycache__/*
+/.theia
