@@ -37,6 +37,9 @@ pyenv
 *.pyc
 *.pyo
 /.github/*
+/.slugignore
+/.theia
+tmp
 /node_modules/*
 core.Microsoft*
 core.mongo*
@@ -53,3 +56,4 @@ node_modules/
 .github/
 cloudinary_python.txt
 kaggle.json
+vscode
