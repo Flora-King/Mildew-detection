@@ -193,7 +193,7 @@ The client has two main requirements:
 
 #### Code, content and media
 
-- The code template I used to start this project was provided by code institute as part of this course's material.
+- I used the code template to start this project was provided by code institute as part of this course's material.
 - I also repurposed the code provided during the Malaria Detector Walkthrough project since the projects are so similar to create content for this project. I followed along the  
   malaria detector tutorial video series in order to create and complete the jupyter notebooks and streamlit dashboard.
 - The content on the summary page of the streamlit app was source from [Wikipedia](https://en.wikipedia.org/wiki/Powdery_mildew).
