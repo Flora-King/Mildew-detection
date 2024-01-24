@@ -23,10 +23,14 @@ def ml_performance_metrics():
 
     st.warning(
         f"**Model Performance**\n\n"
-        f"The Loss is the sum of errors made for each example in training (loss) or validation (val_loss) sets.\n\n"
-        f"Loss value implies how poorly or well a model behaves after each iteration of optimization.\n\n"
-        f"The accuracy is the measure of how accurate your model's prediction (accuracy) is compared to the true data (val_acc).\n\n"
-        f"When good model performs well on unseen data it means that it's able to generalize and didn't fit too closely to the training dataset.")
+        f"The Loss is the sum of errors made for each example in training\n"
+        f"(loss) or validation (val_loss) sets.\n\n"
+        f"Loss value implies how poorly or well a model behaves after each\n"
+        f"iteration of optimization.\n\n"
+        f"The accuracy is the measure of how accurate the model's prediction\n"
+        f"(accuracy) is compared to the true data (val_acc).\n\n"
+        f"When good model performs well on unseen data it means that it's\n"
+        f"able to generalize and didn't fit too closely to training dataset.")
 
     st.write("Model Training Accuracy")
     model_clf = plt.imread(
