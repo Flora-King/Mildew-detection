@@ -13,14 +13,13 @@ from src.machine_learning.predictive_analysis import (
 
 def mildew_detector_body():
     st.info(
-        f"* The client is interested to tell whether a given cherry leaf\n"
-        f"contains mildew"
+        f"* The client want to know if a given cherry leaf contains mildew\n"
         f" or not."
     )
 
     st.write(
         f"* Download a set of leaves containing a powdery mildew or\n"
-        f"healthy leaves for live prediction. "
+        f"healthy leaves for a live prediction. "
         f"To make a live prediction, download the images\n"
         f"from [here](https://www.kaggle.com/codeinstitute/cherry-leaves)"
     )
@@ -58,6 +57,5 @@ def mildew_detector_body():
 
     st.write(
         f"For additional information, please visit **read** "
-        f"[this project's README.md file]\n"
-        f"(https://github.com/Flora-King/Mildew-detection.git)."
+        f"[this project's README.md file](https://github.com/Flora-King/Mildew-detection.git)."
     )

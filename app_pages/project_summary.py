@@ -58,6 +58,6 @@ def project_summary_body():
 
     st.write(
         f"For additional information, please **read**\n "
-        f"[this project's README.md file]\n"
+        f"[this project's README.md file]"
         f"(https://github.com/Flora-King/Mildew-detection.git)."
     )

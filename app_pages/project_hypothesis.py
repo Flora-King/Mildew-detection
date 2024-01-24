@@ -26,6 +26,6 @@ def project_hypothesis_body():
 
     st.write(
         f"For additional information, please visit **read** "
-        f"[this project's README.md file]\n"
+        f"[this project's README.md file]"
         f"(https://github.com/Flora-King/Mildew-detection.git)."
     )
