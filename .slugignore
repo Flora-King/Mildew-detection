@@ -2,13 +2,18 @@ inputs/cherryleaves_dataset/cherry-leaves/test/healthy/*
 inputs/cherryleaves_dataset/cherry-leaves/test/powdery_mildew/*
 inputs/cherryleaves_dataset/cherry-leaves/train/healthy/*
 inputs/cherryleaves_dataset/cherry-leaves/train/powdery_mildew/*
+/inputs/cherryleaves_dataset/cherry-leaves/train/powdery_mildew
+/inputs/cherryleaves_dataset/cherry-leaves/train/healthy
+/inputs/cherryleaves_dataset/cherry-leaves/train
+/inputs/cherryleaves_dataset/cherry-leaves/test/powdery_mildew
+/inputs/cherryleaves_dataset/cherry-leaves/test/healthy
+/inputs/cherryleaves_dataset/cherry-leaves/test
 attachments/*
 documentation/*
 README.md
 .gitpod.dockerfile
 .gitpod.yml
 app_pages/__pycache__/*
-/app_pages/__pycache__
 /app_pages
 /.ipynb_checkpoints
 /.devcontainer/build-assets
@@ -20,3 +25,6 @@ app_pages/__pycache__/*
 /kaggle.json
 /__pycache__/*
 /.theia
+/.gitignore
+/.git/logs
+/src/machine_learning/__pycache__
