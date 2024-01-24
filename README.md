@@ -143,13 +143,16 @@ The client has two main requirements:
 
 ## Unfixed Bugs
 
-- There are no unfixed bugs
+- I was unable to fix **[the connection error]** that occurs on the 'Mildew Detector' page once i have deployed to render.
+- The user can upload an image as needed and that image surfaces suitably and timely. However the app's connection timesout after this stage due to limits on RAM on render.
+- The analysis report together with the uploaded images are presented to the user accurately in the streamlit app outside of render [i.e. port 8501]
+- Both Heroku and Render have limits on allowed RAM. For render the free service is limited to just 512M and my slug file is slightly over that.
 
 ## Deployment
 
 ### Render
 
-- The App live link is: <https://mildew-detector-app.onrender.com>
+- The live link for the app is: <https://mildew-detector-app.onrender.com>
 - I deployed to render instead of Heroku because i was having so many issues with codeanywhere IDE and therefore couldn't even get to the stage of deploying app to Heroku. I then decided to clone my repository and work in Visual studio instead of codeanywhere and then push code to GitHub per usual rules.
 
 - The project was deployed to Render using the following steps.
@@ -177,17 +180,17 @@ The client has two main requirements:
 
 - Below is a list of the libraries used in this project.
 
-|   ML Library   | Version |               Used for                |
-| :------------: | :-----: | :-----------------------------------: |
-|     keras      |  2.6.0  |    setting model's hyperparamters     |
-|   matplotlib   |  3.3.1  |    plotting the sets' distribution    |
-|     numpy      | 1.19.2  |          converting to array          |
-|     pandas     |  1.1.2  |     creating/saving as dataframe      |
-|     plotly     | 5.12.0  |  plotting the model's learning curve  |
-|  scikit-learn  | 0.24.2  |         evaluating the model          |
-|    seaborn     | 0.11.0  | plotting the model's confusion matrix |
-|   streamlit    | 0.85.0  |        creating the dashboard         |
-| tensorflow-cpu |  2.6.0  |          creating the model           |
+|   ML Library   |               Used for                |
+| :------------: | :-----------------------------------: |
+|     keras      |    setting model's hyperparamters     |
+|   matplotlib   |    plotting the sets' distribution    |
+|     numpy      |          converting to array          |
+|     pandas     |     creating/saving as dataframe      |
+|     plotly     |  plotting the model's learning curve  |
+|  scikit-learn  |         evaluating the model          |
+|    seaborn     | plotting the model's confusion matrix |
+|   streamlit    |        creating the dashboard         |
+| tensorflow-cpu |          creating the model           |
 
 ## Credit
 
